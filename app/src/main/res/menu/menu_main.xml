@@ -1,0 +1,20 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/menu_english"
+            android:title="English" />
+        <item
+            android:id="@+id/menu_spanish"
+            android:title="Spanish" />
+        <item
+            android:id="@+id/menu_french"
+            android:title="French" />
+        <item
+            android:id="@+id/menu_russian"
+            android:title="Russian" />
+        <item
+            android:id="@+id/menu_german"
+            android:title="German" />
+    </group>
+</menu>
