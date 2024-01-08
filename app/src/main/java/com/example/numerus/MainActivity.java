@@ -75,26 +75,33 @@ public class MainActivity extends AppCompatActivity {
         toolbar.setOverflowIcon(ContextCompat.getDrawable(getApplicationContext(),R.drawable.language));
 
         YouTubePlayerView youTubePlayerView = findViewById(R.id.youtube_player_view);
+
+        // Read csv file with youtube channels
         try {
             reader = new CSVReader(new InputStreamReader(getAssets().open(fileName)));
             lines = reader.readAll();
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+
         youTubePlayerView.addYouTubePlayerListener(new AbstractYouTubePlayerListener() {
             @Override
             public void onReady(@NonNull YouTubePlayer youtubePlayer) {
 
+                // Get random line from csv, i.e. a random channel to get a video from
                 int randomIndex = random_generator.nextInt(lines.size());
                 String[] currentLine = lines.get(randomIndex);
 
                 if (currentLine == null)
                     onReady(youtubePlayer);
 
+                // Parse a line
                 String videoId = currentLine[1];
                 String startTime = currentLine[2];
                 String captions = currentLine[3];
                 float startTimeFloat = Float.parseFloat(startTime);
+
+                // Load a video from the given timestamp
                 youtubePlayer.loadVideo(videoId, startTimeFloat);
                 captionsView.setText(captions);
 
