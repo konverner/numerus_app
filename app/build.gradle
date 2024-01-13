@@ -3,13 +3,13 @@ plugins {
 }
 
 android {
-    namespace 'com.example.numerus'
-    compileSdk 33
+    namespace 'xyz.numerus'
+    compileSdk 32
 
     defaultConfig {
-        applicationId "com.example.numerus"
+        applicationId "xyz.numerus"
         minSdk 24
-        targetSdk 33
+        targetSdk 32
         versionCode 1
         versionName "1.0.0"
 

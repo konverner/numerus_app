@@ -1,7 +1,6 @@
-package com.example.numerus;
+package xyz.numerus;
 
 import android.graphics.drawable.ColorDrawable;
-import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.widget.PopupWindow;
@@ -18,16 +17,13 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.opencsv.CSVReader;
 
-import java.io.ObjectInputStream;
 import java.util.List;
 import java.util.Random;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.concurrent.ThreadLocalRandom;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.content.ContextCompat;
 
