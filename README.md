@@ -1,6 +1,7 @@
 # Numerus: Numbers in Languages
 
-[![Get it on Google Play](https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png)](https://play.google.com/store/apps/details?id=xyz.numerus&pcampaignid=web_share&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1)
+[<img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" width="200"/>](https://play.google.com/store/apps/details?id=xyz.numerus&pcampaignid=web_share&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1)
+
 
 ## Introduction 
 
@@ -39,6 +40,6 @@ The idea is the following: user choose language then
 
 ## Demo
 
-![]()
+[Video demo on YouTube](https://www.youtube.com/watch?v=XxChslf7MGQ)
 
-![Video demo on YouTube](https://www.youtube.com/watch?v=XxChslf7MGQ)
+<img src="https://github.com/konverner/numerus_app/assets/52051213/33dd9af6-7c61-46cd-b023-32523d169ed6" alt="Image 1" width="200"/> <img src="https://github.com/konverner/numerus_app/assets/52051213/543d9ef4-e42f-43a0-9679-065d9b80d536" alt="Image 2" width="200"/> <img src="https://github.com/konverner/numerus_app/assets/52051213/78a43e50-9931-401d-af1f-8ce57f0c5732" alt="Image 3" width="200"/>
